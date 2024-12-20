@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com HTML</title>
+</head>
+<body>
+    <h1>Introdução ao HTML na prática</h1>
+        <hr/>
+
+        <h2>Índice</h2>
+
+            <ul>
+                <li><a href="#ferramentas">Ferramentas utilizadas</a></li>
+                <li><a href="#inspetor">Inspetor de elementos</a></li>
+                <li><a href="#estrutura-basica">Estrutura básica do HTML</a></li>
+                <li><a href="#tags">Falando sobre tags</a></li>
+                <li><a href="#texto">Textos</a></li>
+                <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+
+
+        <h2 id="ferramentas">Ferramentas utilizadas</h2>
+
+            <p>Para criar e desenvolver uma página HTML é preciso utilizar algumas ferramentas básicas, tais como:</p>
+
+            <ol>
+                <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+                <li>Live Server - <i>Plug-in do Vs Code</i></li>
+                <li>Emmet - <i>Plug-in do Vs Code</i>
+                    <ol>
+                        <li>Em um arquivo HTML digite: <code>HTML:5 + TAB</code></li>
+                        <li>O resultado é a estrutura básica HTML conforme <strong>Figura 1.0</strong></li> 
+                    </ol>
+                </li>
+                <li><a href="https://www.google.com/chrome/" target="_blank">Navegador (preferencialmente google chrome)</a></li>
+            </ol>
+
+            <figure>
+                <img src="imagens/estrutura-HTML.png" 
+                    alt="Estrutura básica HTML" 
+                    width="500"
+                    height="340"
+                    title="Modelo básico e semântico de um documento HTML."
+                />
+                <figcaption>Figura 1.0</figcaption>
+            </figure>
+
+
+        <h2 id="inspetor">Inspetor de elementos</h2>
+
+            <p>Com a ferramenta <i>DevTools</i> (ou inspetor de elementos) é possível visualizar o código-fonte de qualquer página web. Além disso, é possível fazer alterações temporárias e ver o resultado em tempo real, deixando o código-fonte original intacto.</p>
+
+            <p>Isso é muito útil para diagnosticar eventuais problemas em páginas Web ou testar uma alteração. Também pode ser útil se você se depara com um recurso de uma página Web, acha interessante e quer ver como ele foi implementado.</p>
+
+            <h3>Como inspecionar elemento no Chrome?</h3>
+
+                <p>Existe 3 maneiras para inspecionar elemento no Chrome.</p>
+
+                <ul>
+                    <li>Clique com o botão direito em um item da página e escolha Inspecionar;</li>
+                    <li>Clique no menu de três pontos no canto superior direito da janela e escolha Mais ferramentas > Ferramenta de desenvolvedor; </li>
+                    <li>Pressione Ctrl + Shift + C no teclado (Cmd + Option + C no Mac).</li>
+                </ul>
+
+            <h3>Quais são os recursos da ferramenta?</h3>
+
+                <ul>
+                    <li>Encontrar classes CSS em um site</li>
+                    <li>Solucionar problemas de um site</li>
+                    <li>Editar o texto para visualizar as alterações</li>
+                    <li>Visualizar as alterações na imagem</li>
+                    <li>Testar o site usando emulação de dispositivo</li>
+                </ul>
+
+
+        <h2 id="estrutura-basica">Estrutura básica do HTML</h2>
+
+            <p>Aqui vamos explorar o entendimento básico por trás da estrutura HTML, como uma página HTML típica é estruturada e explicaremos outras importantes características básicas da linguagem</p>
+
+            <h3>O que é HTML?</h3>
+
+                <p>HTML é um documento de texto simples estruturado com elementos. Tais elementos são acompanhados de abertura e fechamento de <a href="#tags"><i>tags</i></a>. Você pode visualizar a anatomia de um elemento HTMl na <strong>Figura 2.0</strong></p>
+
+                
+                <figure>
+                    <img src="imagens/mdn_anatomia_de_um_elemento_html.png" 
+                        alt="anatomia de um elemento" 
+                        width="400"
+                        height="240"
+                        title="Modelo anatômico de um elemento HTML"
+                    />
+                    <figcaption>Figura 2.0</figcaption>
+                </figure>
+
+                <p>Um arquivo HTML é salvo com extensão <code>.html</code> e pode ser renderizado por qualuer browser</p>
+
+            <h3>Documento HTML</h3>
+
+                <p>Como os elementos individuais são combinas de forma a criar uma página HTML inteira?</p>
+
+                <p>Analisando a <strong>Figura 1.0</strong> temos o seguinte:</p>
+
+                <ol>
+                    <li><code>&lt;!DOCTYPE html&gt;</code>: Antigamento o doctype funcionava como links para várias regras as quais o HTML tinha que seguir. No entanto, hoje em dia ele não se aplica e precisa ser incluído para que tudo funcione da forma correta.</li>
+                    <li><code>&lt;html&gt;&lt;/html&gt;</code>: envolve o conteúdo da página HTML inteira e é conhecido como elemento raiz da página.</li>
+                    <li><code>&lt;head&gt;&lt;/head&gt;</code>: O elemento &lt;head&gt; é um container para todo o conteúdo da página HTML que não é visível pelo usuário. Isso inclui palavras-chave e a descrição que você quer que apareça nos resultados de busca.</li>
+                    <li><code>&lt;meta charset="utf-8"&gt;</code>: define o tipo de codificação dos caracteres que o documento deve usar, neste cas o UTF-8, que inclui a maior parte dos caracteres das línguas humanas. Tal elemento ajuda a evitar vários problemas no site.</li>
+                    <li><code>&lt;title&gt;&lt;/title&gt;</code>: Define o título da página que vai aparecer na guia do navegador na qual a página está carrregada.</li>
+                    <li><code>&lt;body&gt;&lt;/body&gt;</code>: contém todo o conteúdo que você quer exibir ao usuário quando eles visitarem a página.</li>
+                </ol>
+        
+        <h2 id="tags">Falando sobre <strong><i>tags</i></strong></h2>
+
+
+        
+        <h2 id="texto">Textos</h2>
+
+
+        
+        <h2 id="listas">Listas ordenadas e não ordenadas</h2>
+
+
+        
+        <h2 id="links"><i>Links</i></h2>
+
+
+</body>
+</html>
