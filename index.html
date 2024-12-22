@@ -16,9 +16,7 @@
                 <li><a href="#inspetor">Inspetor de elementos</a></li>
                 <li><a href="#estrutura-basica">Estrutura básica do HTML</a></li>
                 <li><a href="#tags">Falando sobre tags</a></li>
-                <li><a href="#texto">Textos</a></li>
-                <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
-                <li><a href="#links">Links</a></li>
+                <li><a href="#hierarquia-estrutural">hierarquia estrutural</a></li>
             </ul>
 
 
@@ -82,7 +80,7 @@
 
             <h3>O que é HTML?</h3>
 
-                <p>HTML é um documento de texto simples estruturado com elementos. Tais elementos são acompanhados de abertura e fechamento de <a href="#tags"><i>tags</i></a>. Você pode visualizar a anatomia de um elemento HTMl na <strong>Figura 2.0</strong></p>
+                <p>HTML é um documento de texto simples estruturado com elementos. Tais elementos são acompanhados de abertura e fechamento de <a href="#tags"><i>tags</i></a>. Você pode visualizar a anatomia de um elemento HTML na <strong>Figura 2.0</strong></p>
 
                 
                 <figure>
@@ -95,11 +93,13 @@
                     <figcaption>Figura 2.0</figcaption>
                 </figure>
 
-                <p>Um arquivo HTML é salvo com extensão <code>.html</code> e pode ser renderizado por qualuer browser</p>
+                <p>Um arquivo HTML é salvo com extensão <code>.html</code> e pode ser renderizado por qualquer browser</p>
+
+                <blockquote cite="https://www.devmedia.com.br/html-basico-codigos-html/16596">Outro aspecto importante da linguagem HTML é que ela é case insensitive, ou seja, não leva em consideração a diferença entre letras maiúsculas e minúsculas.</blockquote>
 
             <h3>Documento HTML</h3>
 
-                <p>Como os elementos individuais são combinas de forma a criar uma página HTML inteira?</p>
+                <p>Como os elementos individuais são combinados de forma a criar uma página HTML inteira?</p>
 
                 <p>Analisando a <strong>Figura 1.0</strong> temos o seguinte:</p>
 
@@ -114,18 +114,67 @@
         
         <h2 id="tags">Falando sobre <strong><i>tags</i></strong></h2>
 
+            <p>Na <strong>Firua 2.0</strong> vimos a anatomia de um elemento HTML. Note que uma das propriedades do elemento é justamente a <i>tag</i>. Existe a <i>tag</i> de abertura e de fechamento.</p>
+
+            <h3>Atributos de <i>tags</i></h3>
+
+                <p>É justamente na <i>tag</i> de abertura que existe os <strong>atributos</strong>.</p> Na <strong>Figura 3.0</strong> abaixo é mostrado como o atributo se apresenta:
+
+                <figure>
+                    <img src="/imagens/grumpy-cat-attribute-small.png" 
+                        alt="atributo de tag" 
+                        width="800"
+                        height="140"
+                        title="Modelo explicativo sobre atributo de elementos"
+                    />
+                    <figcaption>Figura 3.0</figcaption>
+                </figure>
+
+
+                <p>Os atributos contém informações sobre os elementos que você não deseja que apareça no conteúdo. Na <strong>Figura 3.0</strong> temos o atributo <code>class</code> que permite que você dê ao elemento um nome de identificação, como se fosse um ID para ser usado no CSS como forma de estilizá-lo.</p>
+
+                <h4>Regras do atributo</h4>
+
+                    <ol>
+                        <li>Um espaço entre ele e o nome do elemento (ou o atributo anterior)</li>
+                        <li>O nome do atributo, seguido por um sinal de igual</li>
+                        <li>Um valor para o atributo, com as de abertura e fechamento em volta dele</li>
+                    </ol>
+
+                    <!--O elemento <ins> é COMUMENTE usado junto com o elemento <del>-->
+                    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+            
+            
+            <h3>Aninhando elementos</h3>
+        
+                Elementos podem ser inseridos dentro de outros. Isto se chama <strong>aninhamento</strong>. 
+
+            <h3>Elementos em bloco x Elementos inline</h3>
+
+            <ul>
+                <li>Elementos em bloco formam um bloco visível na página — eles aparecerão em uma nova linha logo após qualquer elemento que venha antes dele, e qualquer conteúdo depois de um elemento em bloco também aparecerá em uma nova linha</li>
+                <li>Elementos inline (na linha) são aqueles que estão contidos dentro de elementos em bloco envolvem apenas pequenas partes do conteúdo do documento e não parágrafos inteiros ou agrupamentos de conteúdo. Um elemento inline não fará com que uma nova linha apareça no documento: os elementos inline geralmente aparecem dentro de um parágrafo de texto, por exemplo: um elemento &lt;a&gt;, ou elementos de ênfase como &lt;em&gt; ou &lt;strong&gt;</li>
+            </ul>
 
         
-        <h2 id="texto">Textos</h2>
+        <h2 id="hierarquia-estrutural">Boas práticas de hierarquia estrutural</h2>
+
+        <ul>
+            <li>Usar apenas &lt;h1&gt; por página. Esse é o título superior e todos ficam abaixo dele na hierarquia.</li>
+            <li>Use títulos na ordem correta na hierarquia (não usar um h3 seguido de h2)</li>
+            <li>Pra cada página HTML deve-se usar no máximo 3 dos 6 níveis de cabeçalho disponíveis (A menos que seja muito necessário)</li>
+        </ul>
 
 
+        <p>Para mais informações sobre hierarquia de níves, veja o vídeo abaixo sobre isso no canal do youtube <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">curso em vídeo</a>:</p>
         
-        <h2 id="listas">Listas ordenadas e não ordenadas</h2>
+        <!--Vídeos do youtube podem ser incorporados clicando com botão direito no vídeo e em seguida clicando em "Copiar código de incorporação"-->
 
-
-        
-        <h2 id="links"><i>Links</i></h2>
-
+        <iframe 
+        src="https://www.youtube.com/embed/aiOEBhozEOg" 
+        frameborder="0"
+        title="Youtube video player"
+        allowfullscreen></iframe>
 
 </body>
 </html>
