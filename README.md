@@ -93,11 +93,14 @@ Você pode visualizar o projeto de diferentes formas:
 
 Alguns recursos que auxiliaram no desenvolvimento do projeto:
 
-- [DIO](https://www.dio.me/)
-- [MDN Web Docs - HTML Basics](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [Curso em Vídeo - HTML5 e CSS3](https://www.youtube.com/c/CursoemV%C3%ADdeo)
-- [DevMedia - HTML Básico](https://www.devmedia.com.br/html-basico-codigos-html/16596)
-- [W3 Schools](https://www.w3schools.com/)
+<ul>
+    <li><a href="https://www.dio.me/" target="_blank">DIO</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
+    <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Curso em Vídeo</a></li>
+    <li><a href="https://www.devmedia.com.br/html-basico-codigos-html/16596" target="_blank">DevMedia</a></li>
+    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+</ul>
+
 
 > Essas referências são úteis para expandir o aprendizado sobre HTML e desenvolvimento web.
 
