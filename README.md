@@ -2,7 +2,6 @@
 
 Este é um projeto introdutório criado com o objetivo de aprender e aplicar os conceitos básicos de HTML. Ele inclui uma página simples que explora a estrutura e o funcionamento de diversas tags fundamentais da linguagem.
 
----
 
 ## 🌟 Funcionalidades
 
@@ -12,24 +11,22 @@ Este é um projeto introdutório criado com o objetivo de aprender e aplicar os 
 - Explicação de conceitos como aninhamento de elementos e a diferença entre elementos em bloco e inline.
 - Uso de ferramentas como o DevTools para inspecionar e alterar elementos temporariamente.
 
----
 
 ## 📜 Índice
 
 1. [Sobre o Projeto](#sobre-o-projeto)
 2. [Ferramentas Utilizadas](#ferramentas-utilizadas)
-3. [Estrutura da Página](#estrutura-da-página)
+3. [Estrutura da Página](#estrutura-da-pagina)
+   - [Anatomia de um Elemento HTML](#anatomia-de-um-elemento-html)
 4. [Hierarquia Estrutural](#hierarquia-estrutural)
-5. [Visualização](#visualização)
-6. [Referências](#referências)
+5. [Visualização](#visualizacao)
+6. [Referências](#referencias)
 
----
 
 ## 📝 Sobre o Projeto
 
 Este projeto serve como um ponto de partida para qualquer pessoa que esteja começando a aprender HTML. Ele demonstra como criar e estruturar uma página web simples, seguindo práticas recomendadas de desenvolvimento.
 
----
 
 ## 🛠 Ferramentas Utilizadas
 
@@ -41,7 +38,6 @@ As ferramentas e tecnologias empregadas neste projeto incluem:
   - **Emmet**: Aumenta a produtividade com atalhos para geração de código HTML.
 - [Google Chrome](https://www.google.com/chrome/): Navegador utilizado para teste e uso do DevTools.
 
----
 
 ## 🏗 Estrutura da Página
 
@@ -63,9 +59,9 @@ Os elementos HTML são apresentados e explicados detalhadamente, incluindo:
 Exemplo de elemento:
 ```html
 <a href="https://www.google.com" target="_blank">Google</a>
+```
 
-
-### 🏗 Hierarquia Estrutural
+### Hierarquia Estrutural
 
 Este projeto adota boas práticas no uso de títulos e cabeçalhos para garantir uma hierarquia semântica clara e estruturada. Algumas recomendações seguidas:
 
@@ -76,9 +72,7 @@ Este projeto adota boas práticas no uso de títulos e cabeçalhos para garantir
 
 Essas práticas garantem uma melhor **usabilidade**, **acessibilidade** e **SEO** para o documento.
 
----
-
-### 👀 Visualização
+### Visualização
 
 Você pode visualizar o projeto de diferentes formas:
 
@@ -92,11 +86,10 @@ Você pode visualizar o projeto de diferentes formas:
 #### Captura de Tela
 ![Estrutura Básica HTML](imagens/estrutura-HTML.png)
 
-Essa imagem apresenta a estrutura básica explicada na página.
+> Essa imagem apresenta a estrutura básica explicada na página.
 
----
 
-### 📖 Referências
+## 📖 Referências
 
 Alguns recursos que auxiliaram no desenvolvimento do projeto:
 
@@ -106,36 +99,9 @@ Alguns recursos que auxiliaram no desenvolvimento do projeto:
 - [DevMedia - HTML Básico](https://www.devmedia.com.br/html-basico-codigos-html/16596)
 - [W3 Schools](https://www.w3schools.com/)
 
-Essas referências são úteis para expandir o aprendizado sobre HTML e desenvolvimento web.
+> Essas referências são úteis para expandir o aprendizado sobre HTML e desenvolvimento web.
 
----
+## Autor
 
-### 🚀 Próximos Passos
-
-Aqui estão algumas ideias para estender e melhorar o projeto:
-
-1. **Adicionar Estilização com CSS**:
-   - Incluir um arquivo CSS externo para estilizar o conteúdo da página.
-   - Tornar a página responsiva usando técnicas de layout flexível e consultas de mídia.
-
-2. **Implementar Interatividade com JavaScript**:
-   - Adicionar eventos como cliques ou animações.
-   - Criar um menu interativo baseado nos tópicos apresentados.
-
-3. **Explorar Outras Tags HTML**:
-   - Implementar formulários com `<form>` e `<input>`.
-   - Usar tabelas para organizar dados de forma tabular.
-
----
-
-### ✨ Contribuições
-
-Contribuições para este projeto são bem-vindas! Sinta-se à vontade para:
-
-- Abrir uma _issue_ no repositório para sugerir melhorias.
-- Enviar um _pull request_ com novas funcionalidades ou correções.
-- Compartilhar ideias ou dúvidas através de discussões.
-
----
-
+Lucas Cabral Soares
 
